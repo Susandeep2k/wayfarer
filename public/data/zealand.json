@@ -1,0 +1,608 @@
+{
+  "region": "zealand",
+  "regionName": "Zealand (Sjælland)",
+  "description": "Copenhagen's region featuring castles, museums, dramatic cliffs, and coastal beaches",
+  "destinations": [
+    {
+      "id": "z-001",
+      "name": "Tivoli Gardens",
+      "location": "Copenhagen city centre",
+      "description": "Iconic amusement park in the heart of Copenhagen with rides, gardens, and entertainment. Perfect for families and casual visitors.",
+      "drivingDistance": 0,
+      "drivingTime": "Walk from city centre",
+      "drivingDistanceKm": 0,
+      "fuelCostDKK": 0,
+      "tolls": [],
+      "budgetPerPersonPerDay": 250,
+      "website": "https://tivoli.dk",
+      "tags": ["family", "amusement", "entertainment", "city-centre"],
+      "coordinates": { "lat": 55.6732, "lng": 12.5673 },
+      "pricing": {
+        "entry": [
+          { "type": "Adult (low season)", "priceDKK": 150, "priceEUR": "€20", "notes": "Off-peak rate" },
+          { "type": "Adult (high season)", "priceDKK": 275, "priceEUR": "€37", "notes": "Peak season" },
+          { "type": "Child (3-7)", "priceDKK": 75, "priceEUR": "€10", "notes": "Low season" },
+          { "type": "Child (3-7) high season", "priceDKK": 140, "priceEUR": "€19", "notes": "Peak season" },
+          { "type": "Child under 3", "priceDKK": 0, "priceEUR": "FREE", "notes": "" }
+        ],
+        "addOns": [
+          { "type": "Ride Pass Adult", "priceDKK": 199, "priceEUR": "€27", "notes": "Low season" },
+          { "type": "Ride Pass Adult high season", "priceDKK": 349, "priceEUR": "€47", "notes": "Peak season" },
+          { "type": "Ride Pass Child", "priceDKK": 99, "priceEUR": "€13", "notes": "Low season" },
+          { "type": "Ride Pass Child high season", "priceDKK": 175, "priceEUR": "€23", "notes": "Peak season" }
+        ]
+      },
+      "budgetTips": ["Book online in advance for lowest rate", "Visit off-peak (weekdays) for cheaper entry", "Skip ride pass and enjoy gardens for cheaper visit"],
+      "highlights": ["Historic amusement park (since 1843)", "Pantomime theatre", "Traditional rides and modern attractions"],
+      "food": "Food court and restaurants on-site, 80-200 DKK per meal",
+      "accommodation": "Hotels in Copenhagen centre nearby",
+      "seasonalNote": "Peak season May-August, off-season rates January-May and September-December",
+      "openingHours": "Seasonal — check website for current times"
+    },
+    {
+      "id": "z-002",
+      "name": "Kronborg Castle",
+      "location": "Helsingør",
+      "description": "UNESCO World Heritage Site famous as 'Hamlet's Castle' with Renaissance fortifications and harbour views. Essential for history enthusiasts.",
+      "drivingDistance": 47,
+      "drivingTime": "45 min",
+      "drivingDistanceKm": 47,
+      "fuelCostDKK": 180,
+      "tolls": [{ "name": "Øresund Bridge", "costDKK": 270, "notes": "If returning via bridge" }],
+      "budgetPerPersonPerDay": 800,
+      "website": "https://kronborg.dk",
+      "tags": ["castle", "UNESCO", "history", "harbour", "cultural"],
+      "coordinates": { "lat": 56.0378, "lng": 12.6244 },
+      "pricing": {
+        "entry": [
+          { "type": "Adult (high season)", "priceDKK": 150, "priceEUR": "€20", "notes": "May-Sept" },
+          { "type": "Adult (online discount)", "priceDKK": 135, "priceEUR": "€18", "notes": "Save 15 DKK online" },
+          { "type": "Adult (off-season)", "priceDKK": 95, "priceEUR": "€13", "notes": "Jan-Apr, Oct-Dec" },
+          { "type": "Child under 18", "priceDKK": 0, "priceEUR": "FREE", "notes": "All seasons" },
+          { "type": "Student", "priceDKK": 85, "priceEUR": "€11", "notes": "Off-season rate" },
+          { "type": "Senior (65+)", "priceDKK": 85, "priceEUR": "€11", "notes": "Off-season rate" }
+        ]
+      },
+      "budgetTips": ["Visit October-April for cheapest adult rate (95 DKK)", "Children free year-round", "Book online to save 15 DKK"],
+      "highlights": ["UNESCO World Heritage fortress", "Renaissance architecture", "Harbour views", "Connection to Shakespeare's Hamlet"],
+      "food": "Café on-site, 60-150 DKK per item",
+      "accommodation": "Helsingør town centre has budget hotels and B&Bs",
+      "seasonalNote": "Lower prices January-April and October-December",
+      "openingHours": "10 AM - 5 PM (extended in summer)"
+    },
+    {
+      "id": "z-003",
+      "name": "Frederiksborg Castle",
+      "location": "Hillerød",
+      "description": "Magnificent Renaissance castle with museum and beautiful gardens. Ideal for leisurely day trip with family and history lovers.",
+      "drivingDistance": 40,
+      "drivingTime": "40 min",
+      "drivingDistanceKm": 40,
+      "fuelCostDKK": 150,
+      "tolls": [],
+      "budgetPerPersonPerDay": 900,
+      "website": "https://frederiksborg.dk",
+      "tags": ["castle", "museum", "gardens", "history", "family"],
+      "coordinates": { "lat": 55.9631, "lng": 12.3021 },
+      "pricing": {
+        "entry": [
+          { "type": "Adult", "priceDKK": 125, "priceEUR": "€17", "notes": "All seasons" },
+          { "type": "Child (0-17)", "priceDKK": 0, "priceEUR": "FREE", "notes": "All seasons" },
+          { "type": "Student", "priceDKK": 105, "priceEUR": "€14", "notes": "With valid ID" },
+          { "type": "Senior (65+)", "priceDKK": 105, "priceEUR": "€14", "notes": "" }
+        ]
+      },
+      "budgetTips": ["Children free — great family value", "Gardens free (castle interior paid)", "Combine with nearby Hillerød town for full day"],
+      "highlights": ["Renaissance masterpiece", "Castle museum", "Baroque gardens", "Scenic lake setting"],
+      "food": "Castle café with light meals, 60-150 DKK",
+      "accommodation": "Hillerød town has budget hotels",
+      "seasonalNote": "Garden best April-October, castle open year-round",
+      "openingHours": "10 AM - 5 PM daily"
+    },
+    {
+      "id": "z-004",
+      "name": "Viking Ship Museum",
+      "location": "Roskilde",
+      "description": "Interactive museum with reconstructed Viking ships, sailing experiences, and immersive history. Perfect for families and history enthusiasts.",
+      "drivingDistance": 30,
+      "drivingTime": "35 min",
+      "drivingDistanceKm": 30,
+      "fuelCostDKK": 120,
+      "tolls": [],
+      "budgetPerPersonPerDay": 1100,
+      "website": "https://vikingeskibsmuseet.dk",
+      "tags": ["museum", "Viking", "history", "family", "interactive"],
+      "coordinates": { "lat": 55.6428, "lng": 12.0753 },
+      "pricing": {
+        "summer": [
+          { "type": "Adult", "priceDKK": 165, "priceEUR": "€22", "notes": "May-August" },
+          { "type": "Child (0-17)", "priceDKK": 0, "priceEUR": "FREE", "notes": "" },
+          { "type": "Family (2 adults + kids)", "priceDKK": 310, "priceEUR": "€42", "notes": "Best value for groups" },
+          { "type": "Student", "priceDKK": 105, "priceEUR": "€14", "notes": "" }
+        ],
+        "winter": [
+          { "type": "Adult", "priceDKK": 130, "priceEUR": "€17", "notes": "September-April" },
+          { "type": "Child (0-17)", "priceDKK": 0, "priceEUR": "FREE", "notes": "" },
+          { "type": "Family (2 adults + kids)", "priceDKK": 240, "priceEUR": "€32", "notes": "Best value in winter" },
+          { "type": "Student", "priceDKK": 80, "priceEUR": "€11", "notes": "" }
+        ],
+        "addOns": [
+          { "type": "Sailing trip add-on", "priceDKK": 120, "priceEUR": "€16", "notes": "Optional experience" }
+        ]
+      },
+      "budgetTips": ["Children free", "Family ticket best value (310 DKK for 2 adults + kids)", "Visit September-April for lower adult price (130 DKK)", "Sailing add-on optional"],
+      "highlights": ["Reconstructed Viking ships", "Interactive exhibits", "Sailing experiences", "Viking history immersion"],
+      "food": "Museum café with Viking-inspired meals, 70-180 DKK",
+      "accommodation": "Roskilde town centre budget hotels available",
+      "seasonalNote": "Summer rates higher (May-August), winter rates lower (Sept-April)",
+      "openingHours": "10 AM - 5 PM, closed Mondays in winter"
+    },
+    {
+      "id": "z-005",
+      "name": "Nyhavn",
+      "location": "Copenhagen harbour",
+      "description": "Iconic harbour district with colourful buildings, cafés, and restaurants. Free to explore; budget canal tours available.",
+      "drivingDistance": 0,
+      "drivingTime": "Walk from city centre",
+      "drivingDistanceKm": 0,
+      "fuelCostDKK": 0,
+      "tolls": [],
+      "budgetPerPersonPerDay": 400,
+      "website": "https://havnerundfart.dk",
+      "tags": ["harbour", "city-centre", "canal-tour", "photography", "free"],
+      "coordinates": { "lat": 55.6795, "lng": 12.5897 },
+      "pricing": {
+        "exploration": [
+          { "type": "Walk and explore", "priceDKK": 0, "priceEUR": "FREE", "notes": "24/7 access" }
+        ],
+        "canalTours": [
+          { "type": "Netto-Bådene budget tour Adult", "priceDKK": 80, "priceEUR": "€11", "notes": "1-hour route" },
+          { "type": "Netto-Bådene budget tour Child", "priceDKK": 40, "priceEUR": "€5", "notes": "1-hour route" },
+          { "type": "Stromma classic tour Adult", "priceDKK": 129, "priceEUR": "€17", "notes": "Premium option" },
+          { "type": "Stromma classic tour Adult alt", "priceDKK": 144, "priceEUR": "€19", "notes": "Premium option" },
+          { "type": "Stromma classic tour Child", "priceDKK": 65, "priceEUR": "€9", "notes": "Premium option" }
+        ]
+      },
+      "budgetTips": ["Exploration completely free", "Budget canal tour (Netto-Bådene) half price of Stromma", "Same 1-hour route, both quality operators", "Bring picnic or eat at affordable harbour restaurants"],
+      "highlights": ["Iconic colourful buildings", "Historic harbour", "Canal tour views", "Restaurants and cafés", "Street performers"],
+      "food": "Budget: Smørrebrød stands (60-120 DKK), Mid-range: Harbour restaurants (150-300 DKK)",
+      "accommodation": "Central Copenhagen hotels nearby",
+      "seasonalNote": "Tours run year-round, more crowded May-September",
+      "openingHours": "24/7 public access, tours vary by season"
+    },
+    {
+      "id": "z-006",
+      "name": "Fredensborg Palace",
+      "location": "Fredensborg",
+      "description": "Royal palace with beautiful gardens and lake views. Gardens free year-round; guided tours available in July.",
+      "drivingDistance": 35,
+      "drivingTime": "40 min",
+      "drivingDistanceKm": 35,
+      "fuelCostDKK": 140,
+      "tolls": [],
+      "budgetPerPersonPerDay": 650,
+      "website": "https://denkongeligesamling.dk",
+      "tags": ["palace", "gardens", "royal", "nature", "free"],
+      "coordinates": { "lat": 55.9876, "lng": 12.3745 },
+      "pricing": {
+        "entry": [
+          { "type": "Palace garden", "priceDKK": 0, "priceEUR": "FREE", "notes": "Year-round access" },
+          { "type": "Guided interior tour", "priceDKK": 195, "priceEUR": "€26", "notes": "July only, must book online" },
+          { "type": "Child under 3 (interior tour)", "priceDKK": 0, "priceEUR": "FREE", "notes": "" },
+          { "type": "Child 3+ (interior tour)", "priceDKK": 195, "priceEUR": "€26", "notes": "Same price as adults" }
+        ]
+      },
+      "budgetTips": ["Gardens completely free year-round", "Interior tours only in July", "Must buy tickets online (not sold at palace)", "Perfect budget day trip — free entry, optional paid tour"],
+      "highlights": ["Royal palace gardens", "Lake views", "Baroque architecture", "Peaceful walks", "Seasonal guided tours"],
+      "food": "Pack picnic (no café on-site), nearby town restaurants",
+      "accommodation": "Fredensborg town budget accommodation",
+      "seasonalNote": "Gardens year-round free, guided tours July only",
+      "openingHours": "Gardens 9 AM - 5 PM daily, Tours July 10 AM - 3 PM (book online)"
+    },
+    {
+      "id": "z-007",
+      "name": "Stevns Klint",
+      "location": "Stevns Peninsula (south)",
+      "description": "UNESCO World Heritage chalk cliff with dramatic views and walking trails. Perfect for nature lovers and photographers.",
+      "drivingDistance": 60,
+      "drivingTime": "55 min",
+      "drivingDistanceKm": 60,
+      "fuelCostDKK": 230,
+      "tolls": [],
+      "budgetPerPersonPerDay": 950,
+      "website": "https://stevnsklint.dk",
+      "tags": ["cliffs", "UNESCO", "nature", "walking", "photography"],
+      "coordinates": { "lat": 55.3025, "lng": 12.3712 },
+      "pricing": {
+        "entry": [
+          { "type": "Adult (12-65)", "priceDKK": 140, "priceEUR": "€19", "notes": "" },
+          { "type": "Child (0-11)", "priceDKK": 0, "priceEUR": "FREE", "notes": "" },
+          { "type": "Senior (65+)", "priceDKK": 120, "priceEUR": "€16", "notes": "" },
+          { "type": "Student", "priceDKK": 120, "priceEUR": "€16", "notes": "With valid ID" },
+          { "type": "Group (15+)", "priceDKK": 110, "priceEUR": "€15", "notes": "Per person" }
+        ]
+      },
+      "budgetTips": ["Children free", "Group rate 110 DKK if 15+ people", "Cliff walk free (entry fee for visitor centre)", "Combine with nearby towns for full day"],
+      "highlights": ["UNESCO chalk cliffs (67m high)", "Dramatic coastal views", "Walking trails", "Visitor centre with exhibits", "Photography opportunities"],
+      "food": "Café at visitor centre, 50-150 DKK",
+      "accommodation": "Stevns town or Køge nearby",
+      "seasonalNote": "Best April-October for weather, open year-round",
+      "openingHours": "10 AM - 5 PM (varies seasonally)"
+    },
+    {
+      "id": "z-008",
+      "name": "Møns Klint",
+      "location": "Møn Island (south)",
+      "description": "Denmark's most dramatic chalk cliffs with GeoCenter museum. Free cliff walk; museum entry optional.",
+      "drivingDistance": 135,
+      "drivingTime": "1h 30 min",
+      "drivingDistanceKm": 135,
+      "fuelCostDKK": 520,
+      "tolls": [],
+      "budgetPerPersonPerDay": 1400,
+      "website": "https://moensklint.dk",
+      "tags": ["cliffs", "nature", "museum", "hiking", "island"],
+      "coordinates": { "lat": 54.9336, "lng": 12.6753 },
+      "pricing": {
+        "cliffs": [
+          { "type": "Cliff walk", "priceDKK": 0, "priceEUR": "FREE", "notes": "Always accessible" }
+        ],
+        "geocenter": [
+          { "type": "Adult (walk-in)", "priceDKK": 155, "priceEUR": "€21", "notes": "" },
+          { "type": "Adult (online)", "priceDKK": 145, "priceEUR": "€19", "notes": "Save 10 DKK" },
+          { "type": "Child (3-11) walk-in", "priceDKK": 100, "priceEUR": "€13", "notes": "" },
+          { "type": "Child (3-11) online", "priceDKK": 90, "priceEUR": "€12", "notes": "Save 10 DKK" },
+          { "type": "Child under 3", "priceDKK": 0, "priceEUR": "FREE", "notes": "" },
+          { "type": "Group (10+) Adult", "priceDKK": 135, "priceEUR": "€18", "notes": "" },
+          { "type": "Group (10+) Child", "priceDKK": 85, "priceEUR": "€11", "notes": "" }
+        ]
+      },
+      "budgetTips": ["Cliff walk completely free", "GeoCenter optional paid entrance", "Book online to save 10 DKK", "Group rates available (10+ people)", "Pack picnic for budget lunch"],
+      "highlights": ["Denmark's tallest cliffs (128m)", "Dramatic white chalk formations", "GeoCenter interactive museum", "Panoramic views", "Walking trails"],
+      "food": "Café on-site, 60-180 DKK, or pack picnic",
+      "accommodation": "Møn island towns (Stege, Neble) have budget options",
+      "seasonalNote": "Best April-September for weather, cliffs accessible year-round",
+      "openingHours": "GeoCenter 10 AM - 5 PM (seasonal variations)"
+    },
+    {
+      "id": "z-009",
+      "name": "North Zealand Coast",
+      "location": "Tisvilde & Gilleleje",
+      "description": "Pristine beaches and dramatic coastline with forests. Completely free access to beaches and nature.",
+      "drivingDistance": 70,
+      "drivingTime": "1h",
+      "drivingDistanceKm": 70,
+      "fuelCostDKK": 270,
+      "tolls": [],
+      "budgetPerPersonPerDay": 600,
+      "website": "https://visitcopenhagen.com/north-zealand",
+      "tags": ["beach", "nature", "forest", "coastal", "free"],
+      "coordinates": { "lat": 56.0889, "lng": 12.5397 },
+      "pricing": {
+        "entry": [
+          { "type": "Beaches and forests", "priceDKK": 0, "priceEUR": "FREE", "notes": "24/7 access" },
+          { "type": "Parking (off-season)", "priceDKK": 0, "priceEUR": "FREE", "notes": "September-May" },
+          { "type": "Parking (high season)", "priceDKK": 40, "priceEUR": "€5", "notes": "June-August estimate" }
+        ]
+      },
+      "budgetTips": ["Completely free beaches and nature", "Free parking off-season (Sept-May)", "Combine with Fredensborg or Kronborg on same trip", "Pack picnic for minimal cost"],
+      "highlights": ["Wide sandy beaches", "Dense forests (Tisvilde Hegn)", "Dramatic coastal cliffs", "Walking and cycling trails", "Swimming (summer)"],
+      "food": "Pack picnic, nearby Gilleleje town has restaurants (100-200 DKK)",
+      "accommodation": "Gilleleje town budget hotels",
+      "seasonalNote": "Best May-September for swimming, accessible year-round",
+      "openingHours": "24/7 public access"
+    },
+    {
+      "id": "z-010",
+      "name": "Par Force Hunting Landscape",
+      "location": "Store Dyrehave & Gribskov (north)",
+      "description": "UNESCO World Heritage forests with ancient hunting routes, scenic drives, and walking trails. Completely free access.",
+      "drivingDistance": 48,
+      "drivingTime": "45 min",
+      "drivingDistanceKm": 48,
+      "fuelCostDKK": 185,
+      "tolls": [],
+      "budgetPerPersonPerDay": 500,
+      "website": "https://visitcopenhagen.com/par-force",
+      "tags": ["UNESCO", "nature", "forest", "hunting-history", "free"],
+      "coordinates": { "lat": 55.8256, "lng": 12.5889 },
+      "pricing": {
+        "entry": [
+          { "type": "Forest access", "priceDKK": 0, "priceEUR": "FREE", "notes": "Year-round" },
+          { "type": "Parking", "priceDKK": 0, "priceEUR": "FREE", "notes": "No parking fees" },
+          { "type": "Guided tour (optional)", "priceDKK": 0, "priceEUR": "FREE or donation", "notes": "Check locally" }
+        ]
+      },
+      "budgetTips": ["Completely free — no entry fee or parking", "Perfect budget day trip", "Excellent for walking and cycling", "UNESCO heritage at no cost"],
+      "highlights": ["UNESCO World Heritage site", "Historic hunting routes", "Ancient tree-lined avenues", "Forest paths", "Wildlife viewing opportunities"],
+      "food": "Pack picnic, nearby towns have restaurants",
+      "accommodation": "North Zealand towns nearby",
+      "seasonalNote": "Beautiful all seasons, especially autumn colours",
+      "openingHours": "24/7 public access"
+    },
+    {
+      "id": "z-011",
+      "name": "Dragsholm Castle",
+      "location": "Hørve, Odsherred (west)",
+      "description": "Premium castle hotel with Michelin-starred dining. Gourmet experience for special occasions; budget lunch bistro available.",
+      "drivingDistance": 95,
+      "drivingTime": "1h 10 min",
+      "drivingDistanceKm": 95,
+      "fuelCostDKK": 365,
+      "tolls": [],
+      "budgetPerPersonPerDay": 1200,
+      "website": "https://dragsholm-slot.dk",
+      "tags": ["castle", "gourmet", "premium", "dining", "special-occasion"],
+      "coordinates": { "lat": 55.9234, "lng": 11.9876 },
+      "pricing": {
+        "dining": [
+          { "type": "Michelin 5-course dinner", "priceDKK": 700, "priceEUR": "€94", "notes": "Per person, gourmet" },
+          { "type": "Michelin 7-course dinner", "priceDKK": 900, "priceEUR": "€121", "notes": "Per person, premium gourmet" },
+          { "type": "Wine pairing add-on", "priceDKK": 700, "priceEUR": "€94", "notes": "Optional, per person" },
+          { "type": "Wine pairing premium", "priceDKK": 900, "priceEUR": "€121", "notes": "Optional, per person" },
+          { "type": "Bistro casual meal", "priceDKK": 250, "priceEUR": "€34", "notes": "Budget option, per person" },
+          { "type": "Bistro casual meal alt", "priceDKK": 350, "priceEUR": "€47", "notes": "Budget option, per person" }
+        ],
+        "overnight": [
+          { "type": "Gourmet stay per night", "priceDKK": 6295, "priceEUR": "€844", "notes": "Per person, includes meals" }
+        ]
+      },
+      "budgetTips": ["Not budget-friendly — premium dining only", "Best for special occasions or celebrations", "Bistro option cheaper (250-350 DKK) than Michelin gourmet", "Consider day trip bistro lunch instead of overnight"],
+      "highlights": ["Michelin-starred dining", "Castle grounds", "Wine cellar", "Luxury accommodation", "Special occasion venue"],
+      "food": "On-site Michelin restaurant or bistro",
+      "accommodation": "Luxury castle hotel (not budget)",
+      "seasonalNote": "Open year-round, book well in advance",
+      "openingHours": "Restaurant service hours vary, check website"
+    },
+    {
+      "id": "z-012",
+      "name": "Forgotten Giants",
+      "location": "Various locations around Copenhagen (10-30 km)",
+      "description": "Self-guided treasure hunt finding 6 giant wooden troll sculptures hidden in forests and nature. Completely free adventure.",
+      "drivingDistance": 20,
+      "drivingTime": "20 min average",
+      "drivingDistanceKm": 20,
+      "fuelCostDKK": 80,
+      "tolls": [],
+      "budgetPerPersonPerDay": 400,
+      "website": "https://visitcopenhagen.com/forgotten-giants",
+      "tags": ["art", "nature", "free", "family", "adventure"],
+      "coordinates": { "lat": 55.7128, "lng": 12.5589 },
+      "pricing": {
+        "entry": [
+          { "type": "Self-guided treasure hunt", "priceDKK": 0, "priceEUR": "FREE", "notes": "All 6 trolls accessible" }
+        ]
+      },
+      "budgetTips": ["Completely free", "Fun for all ages", "Requires hiking/walking", "Self-guided with map", "Multiple locations (choose nearby)"],
+      "highlights": ["6 giant wooden troll sculptures", "Hidden in nature", "Forest walks", "Art installation", "Photo opportunities"],
+      "food": "Pack picnic, nearby cafés available",
+      "accommodation": "Copenhagen or North Zealand base",
+      "seasonalNote": "Accessible year-round, mud and rain in winter",
+      "openingHours": "24/7 outdoor art installation"
+    },
+    {
+      "id": "z-013",
+      "name": "Lynæs Surfcenter",
+      "location": "Hundested (northwest)",
+      "description": "Water sports centre with kayaking, SUP boarding, and group activities. Budget-friendly water adventure.",
+      "drivingDistance": 75,
+      "drivingTime": "1h",
+      "drivingDistanceKm": 75,
+      "fuelCostDKK": 290,
+      "tolls": [],
+      "budgetPerPersonPerDay": 850,
+      "website": "https://surfcenter.dk",
+      "tags": ["water-sports", "kayaking", "SUP", "family", "active"],
+      "coordinates": { "lat": 56.1089, "lng": 12.0734 },
+      "pricing": {
+        "kayakSingle": [
+          { "type": "1-hour rental", "priceDKK": 150, "priceEUR": "€20", "notes": "" },
+          { "type": "3-hour rental", "priceDKK": 250, "priceEUR": "€34", "notes": "" },
+          { "type": "Full day (8h)", "priceDKK": 400, "priceEUR": "€54", "notes": "" }
+        ],
+        "kayakDouble": [
+          { "type": "1-hour rental", "priceDKK": 175, "priceEUR": "€23", "notes": "" },
+          { "type": "3-hour rental", "priceDKK": 300, "priceEUR": "€40", "notes": "" },
+          { "type": "Full day (8h)", "priceDKK": 500, "priceEUR": "€67", "notes": "" }
+        ],
+        "supBoard": [
+          { "type": "Rental per hour", "priceDKK": 200, "priceEUR": "€27", "notes": "From 200 DKK" }
+        ],
+        "groupActivities": [
+          { "type": "Beginner group (2.5h, min 5)", "priceDKK": 595, "priceEUR": "€80", "notes": "Per person, includes instruction" }
+        ]
+      },
+      "budgetTips": ["Full day kayak (400 DKK) good value", "Group activity 595 DKK includes instruction", "Rent with friends to split double kayak", "Open April-October (seasonal)"],
+      "highlights": ["Kayaking on Isefjord", "SUP boarding available", "Group instruction available", "Café on-site", "Coastal views"],
+      "food": "On-site café, 50-150 DKK",
+      "accommodation": "Hundested town budget hotels",
+      "seasonalNote": "Open April-October only",
+      "openingHours": "9 AM - 6 PM (varies seasonally)"
+    },
+    {
+      "id": "z-014",
+      "name": "BonBon-Land",
+      "location": "Æbeltoft (south)",
+      "description": "Family amusement park with dynamic pricing. Budget-friendly when booked in advance. Free parking included.",
+      "drivingDistance": 85,
+      "drivingTime": "1h 10 min",
+      "drivingDistanceKm": 85,
+      "fuelCostDKK": 320,
+      "tolls": [],
+      "budgetPerPersonPerDay": 1200,
+      "website": "https://bonbonland.dk",
+      "tags": ["amusement-park", "family", "children", "rides", "budget"],
+      "coordinates": { "lat": 55.3750, "lng": 12.6556 },
+      "pricing": {
+        "entry": [
+          { "type": "Dynamic pricing (early book)", "priceDKK": 199, "priceEUR": "€27", "notes": "3+ days advance" },
+          { "type": "Adult (standard)", "priceDKK": 250, "priceEUR": "€34", "notes": "Walk-up price, varies" },
+          { "type": "Child (same rate)", "priceDKK": 250, "priceEUR": "€34", "notes": "Children same price as adults" }
+        ],
+        "parking": [
+          { "type": "Parking", "priceDKK": 60, "priceEUR": "€8", "notes": "Free with early booking offers" }
+        ]
+      },
+      "budgetTips": ["Book 3+ days in advance for lowest rate (199 DKK)", "Same low rate for adults and children (no child discount)", "Free parking with certain packages", "Check website for current dynamic pricing"],
+      "highlights": ["Family rides", "Amusement attractions", "Candy-themed park", "Kids activities", "Family-friendly"],
+      "food": "On-site food stands and cafés, 60-150 DKK",
+      "accommodation": "Æbeltoft town nearby",
+      "seasonalNote": "Open April-September mainly, weekends in shoulder seasons",
+      "openingHours": "Seasonal, typically 10 AM - 6 PM"
+    },
+    {
+      "id": "z-015",
+      "name": "Kalundborg",
+      "location": "Kalundborg (west)",
+      "description": "Historic harbour town famous for 5-towered medieval church and Viking museum. Combine with harbour exploration.",
+      "drivingDistance": 100,
+      "drivingTime": "1h 15 min",
+      "drivingDistanceKm": 100,
+      "fuelCostDKK": 385,
+      "tolls": [],
+      "budgetPerPersonPerDay": 1050,
+      "website": "https://kalundborg.dk",
+      "tags": ["medieval", "church", "harbour", "history", "town"],
+      "coordinates": { "lat": 55.6897, "lng": 11.0831 },
+      "pricing": {
+        "church": [
+          { "type": "Church interior visit", "priceDKK": 0, "priceEUR": "FREE", "notes": "5-towered medieval church" }
+        ],
+        "museum": [
+          { "type": "Viking museum", "priceDKK": 80, "priceEUR": "€11", "notes": "Estimate, check locally" }
+        ]
+      },
+      "budgetTips": ["Medieval church free to explore", "Viking museum 80 DKK entry", "Harbour walk free", "Budget friendly town overall"],
+      "highlights": ["5-towered medieval church (unique architecture)", "Viking museum", "Historic harbour", "Town exploration", "Photo opportunities"],
+      "food": "Harbour restaurants and cafés, 80-200 DKK",
+      "accommodation": "Kalundborg town budget hotels",
+      "seasonalNote": "Best May-September, open year-round",
+      "openingHours": "Town 24/7, church and museum check locally"
+    },
+    {
+      "id": "z-016",
+      "name": "Vesterlyng Camping",
+      "location": "Vesterlyng Beach",
+      "description": "Top-3 beach in Denmark with heated pool, glamping, and camping. Seasonal pricing available. Opens March 27.",
+      "drivingDistance": 95,
+      "drivingTime": "1h 10 min",
+      "drivingDistanceKm": 95,
+      "fuelCostDKK": 365,
+      "tolls": [],
+      "budgetPerPersonPerDay": 950,
+      "website": "https://vesterlyng.dk",
+      "tags": ["beach", "camping", "glamping", "pool", "family"],
+      "coordinates": { "lat": 55.3295, "lng": 12.1847 },
+      "pricing": {
+        "accommodation": [
+          { "type": "Adult per night (low)", "priceDKK": 95, "priceEUR": "€13", "notes": "Camping, low season" },
+          { "type": "Adult per night (high)", "priceDKK": 113, "priceEUR": "€15", "notes": "Camping, high season" },
+          { "type": "Child 3-11 per night (low)", "priceDKK": 60, "priceEUR": "€8", "notes": "Camping, low season" },
+          { "type": "Child 3-11 per night (high)", "priceDKK": 80, "priceEUR": "€11", "notes": "Camping, high season" },
+          { "type": "Camping cabin (low)", "priceDKK": 570, "priceEUR": "€76", "notes": "Per night, low season" },
+          { "type": "Camping cabin (high)", "priceDKK": 690, "priceEUR": "€93", "notes": "Per night, high season" },
+          { "type": "Glamping (low)", "priceDKK": 760, "priceEUR": "€102", "notes": "Per night, low season" },
+          { "type": "Glamping (high)", "priceDKK": 1100, "priceEUR": "€147", "notes": "Per night, high season" }
+        ],
+        "facilities": [
+          { "type": "Pool access", "priceDKK": 0, "priceEUR": "FREE", "notes": "For guests, heated" }
+        ]
+      },
+      "budgetTips": ["Camping cheapest option (95-113 DKK/adult)", "Visit April-May or September for lower prices", "Pool access free for guests", "Glamping expensive but includes luxury"],
+      "highlights": ["Top-3 beach in Denmark", "Heated pool year-round", "Multiple accommodation types", "Family-friendly", "Beach activities"],
+      "food": "On-site café and restaurant, 70-180 DKK",
+      "accommodation": "Camping, cabin, or glamping on-site",
+      "seasonalNote": "Opens March 27, prices higher May-August",
+      "openingHours": "Reception 8 AM - 8 PM daily"
+    },
+    {
+      "id": "z-017",
+      "name": "Sri Katpaga Vinayagar Temple",
+      "location": "Gavnø Slot area",
+      "description": "Unique Hindu temple in Denmark with colorful architecture. Free entry, combine with nearby Gavnø Slot.",
+      "drivingDistance": 83,
+      "drivingTime": "1h 5 min",
+      "drivingDistanceKm": 83,
+      "fuelCostDKK": 320,
+      "tolls": [],
+      "budgetPerPersonPerDay": 800,
+      "website": "https://gavnoslotsogtemper.dk",
+      "tags": ["temple", "cultural", "unique", "free", "spiritual"],
+      "coordinates": { "lat": 55.3398, "lng": 12.3598 },
+      "pricing": {
+        "entry": [
+          { "type": "Temple visit", "priceDKK": 0, "priceEUR": "FREE", "notes": "No ticket required" }
+        ]
+      },
+      "budgetTips": ["Completely free entry", "Unique cultural experience", "Combine with Gavnø Slot nearby (160 DKK)", "Photography welcome"],
+      "highlights": ["Unique Hindu temple in Scandinavia", "Colorful architecture", "Cultural experience", "Spiritual atmosphere", "Photo opportunities"],
+      "food": "Pack picnic or visit nearby Gavnø café",
+      "accommodation": "South Zealand towns nearby",
+      "seasonalNote": "Open year-round, best spring-autumn",
+      "openingHours": "Typically 9 AM - 6 PM (check locally)"
+    },
+    {
+      "id": "z-018",
+      "name": "Gavnø Slot — Castle Park & Activities",
+      "location": "Gavnø, South Zealand",
+      "description": "Historic castle with extensive grounds featuring gardens, tulip festival (April-May), and adventure activities. Perfect for families with multiple attractions in one location.",
+      "drivingDistance": 83,
+      "drivingTime": "1h 5 min",
+      "drivingDistanceKm": 83,
+      "fuelCostDKK": 320,
+      "tolls": [],
+      "budgetPerPersonPerDay": 1500,
+      "website": "https://gavnoe.com/opening-hours-and-prices/prices/",
+      "tags": ["castle", "gardens", "family", "activities", "tulips", "climbing"],
+      "coordinates": { "lat": 55.3450, "lng": 12.3650 },
+      "pricing": {
+        "castleAndPark": [
+          { "type": "Adult (18+ years)", "priceDKK": 160, "priceEUR": "€21", "notes": "Day ticket" },
+          { "type": "Junior (16-17 years)", "priceDKK": 85, "priceEUR": "€11", "notes": "Day ticket" },
+          { "type": "Child (under 16 years)", "priceDKK": 0, "priceEUR": "FREE", "notes": "Free entry" },
+          { "type": "Season Pass Adult", "priceDKK": 400, "priceEUR": "€54", "notes": "Unlimited access" },
+          { "type": "Season Pass Junior", "priceDKK": 225, "priceEUR": "€30", "notes": "Unlimited access" }
+        ],
+        "goFlyClimbing": [
+          { "type": "Adult (13+ years)", "priceDKK": 325, "priceEUR": "€44", "notes": "Day ticket" },
+          { "type": "Child (5-12 years)", "priceDKK": 250, "priceEUR": "€34", "notes": "Day ticket" },
+          { "type": "Child (under 5 years)", "priceDKK": 150, "priceEUR": "€20", "notes": "Day ticket" },
+          { "type": "Group (20+ people) Adult", "priceDKK": 295, "priceEUR": "€40", "notes": "Discounted group rate" },
+          { "type": "Group (20+ people) Child 5-12", "priceDKK": 220, "priceEUR": "€30", "notes": "Discounted group rate" },
+          { "type": "Group (20+ people) Child under 5", "priceDKK": 120, "priceEUR": "€16", "notes": "Discounted group rate" },
+          { "type": "Season Pass Adult", "priceDKK": 795, "priceEUR": "€107", "notes": "Unlimited climbing access" },
+          { "type": "Season Pass Child 5-12", "priceDKK": 635, "priceEUR": "€85", "notes": "Unlimited climbing access" },
+          { "type": "Season Pass Child under 5", "priceDKK": 375, "priceEUR": "€50", "notes": "Unlimited climbing access" }
+        ]
+      },
+      "activities": [
+        "Castle park exploration",
+        "GoFly climbing park (outdoor)",
+        "Tulip festival (April-May with 200,000+ tulips)",
+        "Garden walks",
+        "Family picnicking",
+        "Photography"
+      ],
+      "budgetTips": [
+        "Children under 16 enter castle for FREE",
+        "Visit April-May for tulip festival",
+        "Groups of 20+ get discounted rates",
+        "Buy season pass if visiting multiple times",
+        "Combine activities: castle (160 DKK) + climbing (325 DKK) = 485 DKK per adult",
+        "Handicap attendants get free access with valid ID"
+      ],
+      "highlights": [
+        "Historic castle grounds",
+        "200,000+ tulips in bloom (April-May)",
+        "GoFly climbing park with multiple difficulty levels",
+        "Beautiful gardens and lake views",
+        "Family-friendly attractions in one location",
+        "Photo opportunities throughout grounds"
+      ],
+      "food": "On-site café available, pack picnic for budget option (30-80 DKK)",
+      "accommodation": "South Zealand towns nearby (Nakskov, Stubbekøbing, Maribo) with budget hotels (300-500 DKK/night)",
+      "seasonalNote": "Tulip festival April-May (peak bloom). Open year-round. Summer: peak season with all activities. Winter: quieter, lower prices.",
+      "openingHours": "10 AM - 6 PM (seasonal variations). Tulip festival April-May."
+    }
+  ]
+}
